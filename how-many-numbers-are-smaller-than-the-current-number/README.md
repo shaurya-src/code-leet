@@ -1,3 +1,4 @@
+[Discussion Post (created on 5/3/2021 at 10:3)](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/discuss/?currentPage=1&orderBy=hot&query=)  
 <h2>1365. How Many Numbers Are Smaller Than the Current Number</h2><h3>Easy</h3><hr><div><p>Given the array <code>nums</code>, for each <code>nums[i]</code> find out how many numbers in the array are smaller than it. That is, for each <code>nums[i]</code> you have to count the number of valid <code>j's</code>&nbsp;such that&nbsp;<code>j != i</code> <strong>and</strong> <code>nums[j] &lt; nums[i]</code>.</p>
 
 <p>Return the answer in an array.</p>
