@@ -15,9 +15,8 @@ class Solution:
         
         n = idx - 1
         
-        for key, value in dct.items():
-            curr = value + dct[n-key]
-            max_twin = max(max_twin, curr)
+        for i in range (n//2 + 1):
+            max_twin = max(max_twin, (dct[i] + dct[n-i]))
         
         return max_twin
             
